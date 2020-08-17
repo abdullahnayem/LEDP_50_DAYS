@@ -1,0 +1,153 @@
+.heading4{
+    background: red;
+    color: #fff;
+    padding: 10px;
+}
+/* ---------------- dic css -----------------*/
+.nav{
+    height: 30px;
+    width: 960px;
+    background: blue;
+}
+.header{
+     height: 250px;
+    width: 960px;
+    background: red;
+}
+.content{
+     height: 400px;
+    width: 960px;
+    background: green;
+}
+.leftbar{
+    width: 60%;
+    height: 100%;
+    background: skyblue;
+    float: left;
+}
+.rightbar{
+    width: 40%;
+    height: 100%;
+    background: yellow;
+    float: right;
+}
+.footer{
+     height: 60px;
+    width: 960px;
+    background: black;
+}
+
+/* ---------------- background css -----------------*/
+.background_color{
+    height: 200px;
+    width: 960px;
+    background: red;
+}
+.background_image{
+    background: url(../image/vv.jpg);
+    height: 300px;
+    width: 960px;
+    background-size: cover;
+    background-repeat: round;
+}
+.background_repeat{
+     background: url(../image/vv.jpg); 
+     height: 200px;
+    width: 960px;
+    /*background-repeat: no-repeat;*/
+    /*background-repeat: repeat-x;*/
+    /*background-repeat: repeat-y;*/
+    
+    background-repeat: repeat;
+}
+body{
+   
+    background: url(../image/bg.jpg); 
+    background-repeat: repeat;
+    height: 1000px;
+    background-attachment: fixed;
+}
+.background_position{
+    background: url(../image/vv.jpg); 
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 200px;
+    width: 960px;
+    
+}
+
+/* ---------------- text css -----------------*/
+h1{
+    background: red;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.tc{
+    color: red;
+}
+.tal{
+    text-align: left;
+}
+.tar{
+    text-align: right;
+}
+.tac{
+    text-align: center;
+}
+.taj{
+    text-align: justify;
+}
+
+.tdu{
+    text-decoration: underline;
+}
+.tdo{
+    text-decoration: overline;
+}
+.tdl{
+    text-decoration: line-through;
+}
+.ttu{
+    text-transform: uppercase;
+}
+.ttl{
+    text-transform: lowercase;
+}
+.ttc{
+    text-transform: capitalize;
+}
+.ti{
+    text-indent: 60px;
+    text-align: justify;
+}
+.ls{
+    letter-spacing: 10px;
+}
+.lh{
+    line-height: 30px;
+    text-align: justify;
+}
+.ws{
+    word-spacing: 30px;
+}
+.ts{
+    text-shadow: 2px 2px red;
+}
+/* ---------------- font css -----------------*/
+.fs{
+    font-style: oblique;
+}
+.fv{
+    font-variant: small-caps;
+    
+}
+.fW{
+    font-weight: bold;
+}
+.fS{
+    font-size: 50px;
+}
+.ff{
+    font-family: Brush Script MT;
+}
