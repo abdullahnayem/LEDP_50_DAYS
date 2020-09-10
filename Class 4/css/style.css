@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ ul li{
+    
+     list-style-position: outside;
+    
+}
+/* ------ table css --------*/
+table{
+    background: green;
+    border: 2px solid #333;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+tr{}
+tr th{
+      border: 2px solid #333;
+}
+tr td{
+    border: 2px solid #333;
+}
+tr td:hover{
+    background: white;
+}
+/* ------ border css --------*/
+.border_practice{
+    border:2px solid black;
+
+    color: #fff;
+    background: red;
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+.br {
+    height: 387px;
+    width: 302px;
+    background: green;
+    border: 5px solid #5D5D5D;
+    border-radius: 48%;
+}
+
+/* ------ margin-properties --------*/
+.margin_properties{
+    background: red;
+    color:greenyellow;
+    text-align: center;
+    
+  
+    margin: 50px 50px 100px 50px;
+    padding: 20px 0px 50px 0px;
+}
+/* ------ CSS Pseudo --------*/
+p{
+    background: green;
+    color: #fff;
+    padding: 10px;
+}
+p:first-child{
+    background: red;
+    color: #fff;
+    padding: 10px;
+}
+p::first-letter{
+    font-size: 50px;
+    color: #000;
+}
+h6::first-line{
+    background: yellow;
+    padding: 10px;
+}
+h1::after{
+    content: 'Md. Nayem';
+}
+h2::before{
+    content: 'My Name is '
+}
+
+/* ------ CSS Floating  --------*/
+.template{
+    width: 960px;
+    margin: 0 auto;
+}
+.header{
+    height: 250px;
+    width: 100%;
+}
+.logo{
+   width: 30%;
+    height: 100%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.banner{
+    width: 70%;
+    height: 100%;
+    float: right;
+}
+.banner img{
+     width: 100%;
+    height: 100%;
+}
+.menu{
+    height: 40px;
+    background: red;
+    width: 100%;
+}
+.menu ul{}
+.menu ul li{
+    float: left;
+    margin-left: 25px;
+    margin-top: 1px;
+    background: #999;
+    padding: 10px;
+    list-style: none;
+    width: 111px;
+    text-align: center;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.content{
+    height: 400px;
+    background: blue;
+    width: 100%;
+}
+.leftbar{
+    height: 100%;
+    width: 25%;
+    background: pink;
+    float: left;
+}
+.center{
+     height: 100%;
+    width: 50%;
+    background: hotpink;
+    float: left;
+}
+.rightbar{
+     height: 100%;
+    width: 25%;
+    background: skyblue;
+    float: left;
+}
+.footer{
+    height: 80px;
+    background: #000;
+    width: 100%;
+}
