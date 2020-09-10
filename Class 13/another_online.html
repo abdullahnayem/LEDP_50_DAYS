@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img src="img/DCL-Rendering-4-1-1024x534.jpg" alt="Chania" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Chania</h3>
+          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/IMG_20181218_163916.jpg" alt="Chania" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Chania</h3>
+          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="img/IMG_3847.jpg" alt="Flower" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Flowers</h3>
+          <p>Beautiful flowers in Kolymbari, Crete.</p>
+        </div>
+      </div>
+
+      
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+<div class="container">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="img/DCL-Rendering-4-1-1024x534.jpg" alt="...">
+            <div class="carousel-caption">
+              ...
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/IMG_20181218_163916.jpg" alt="...">
+            <div class="carousel-caption">
+              ...
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/IMG_3847.jpg" alt="...">
+            <div class="carousel-caption">
+              ...
+            </div>
+          </div>
+          ...
+        </div>
+      
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+</div>
+<div class="container">
+    <h1 class="text-center well">
+        Bootstrap3 alert
+    </h1><hr><hr><hr>
+<div class="alert alert-success" >
+    <p><strong>Success !</strong> You are Log in Success</p>
+</div>
+<div class="alert alert-warning">
+    <p><strong>Error!</strong> Your password is not correct</p>
+</div>
+<div class="alert alert-info">
+    <p><strong>Error!</strong> Your password is not correct</p>
+</div>
+<div class="alert alert-danger">
+    <p><strong>Error!</strong> Your password is not correct</p>
+</div>
+<div class="alert alert-info fade in alert-dismissible">
+    <a href="#" class="close" data-dismiss="alert">&times;</a>
+    <p><strong>Error!</strong> Your password is not correct</p>
+</div>
+</div>
+
+<hr>
+<hr>
+<hr>
+
+<div class="container">
+    <h1 class="text-center well">Bootstrap Tabs and Pills </h1>
+    <hr>
+    <hr>
+    <hr>
+    <ul class="nav nav-tabs">
+        <li><a href="#">Home</a></li>
+        <li class="active"><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+    <hr>
+    <hr>
+    <hr>
+    <ul class="nav nav-tabs">
+        <li><a href="#">Home</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Services
+        <span class="caret"></span>
+        <ul class="dropdown-menu">
+            <li><a href="#">Mobile Services</a></li>
+            <li><a href="#">Laptop Services</a></li>
+        </ul>
+        </a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    
+</div>
+
+<hr>
+<hr>
+
+<div class="container">
+    <a class="btn btn-primary" href="#" data-toggle="tooltip" data-placement="top" title="LEDP">Click me</a>
+    <a class="btn btn-primary" href="#" data-toggle="tooltip" data-placement="bottom" title="LEDP">Click me</a>
+    <a class="btn btn-primary" href="#" data-toggle="tooltip" data-placement="left" title="LEDP">Click me</a>
+    <a class="btn btn-primary" href="#" data-toggle="tooltip" data-placement="right" title="LEDP">Click me</a>
+    <hr><hr>
+</div><hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<div class="container">
+  <ul class="nav nav-pills ">
+    <li><a href="#">Home</a></li>
+    <li class="active"><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">About</a></li>
+</ul><hr>
+<hr>
+<hr>
+    <ul class="nav nav-pills nav-stacked">
+        <li><a href="#">Home</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Services
+          <span class="caret"></span>
+          <ul class="dropdown-menu">
+              <li><a href="#">Mobile Services</a></li>
+              <li><a href="#">Laptop Services</a></li>
+          </ul>
+          </a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+    <hr>
+    <ul class="nav nav-tabs nav-justified">
+        <li><a href="#">Home</a></li>
+        <li class="active"><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <ul class="nav nav-pills nav-justified">
+        <li><a href="#">Home</a></li>
+        <li class="active"><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+
+
+</div>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<div class="container">
+  <h1 class="text-center well">
+    Bootstrap3 collapse
+</h1><hr><hr><hr>
+<button href="" class="btn btn-primary" data-toggle="collapse" data-target="#test">Click Here</button>
+<div id="test" class="collapse">
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde sapiente, iste perspiciatis repudiandae corporis dicta voluptatum odit, quisquam, ea blanditiis nostrum earum temporibus laborum ullam officia nobis harum. Soluta, quo nemo, accusantium labore facilis numquam tenetur eveniet reprehenderit libero veniam magni iure, voluptas dolores doloribus perferendis dolorem aliquid? Maiores, amet?
+</div>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+</div>
+<script>
+        $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
+</body>
+</html>
